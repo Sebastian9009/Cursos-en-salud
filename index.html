@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="./Javascript.js"></script>
+
+    <header class="content"> 
+        <h1> Cursos en salud</h1>
+        <p> Sociedad colombiana de Emergencias de Salud </p>
+    </header>
+
+    <nav class="navbar">
+        <a href="#" onclick="mostrarCursos()"> Cursos </a>
+        <a href="#" onclick="mostrarContacto()"> Contactenos </a>    
+    </nav>
+    
+    <div id="seccion-cursos-container"> 
+
+    <nav class="sidenav"> 
+        <a> <button type="button" onclick="soportevitalbasico()" >Soporte vital Basico </button> </a>
+        <a> <button type="button" onclick="soportevitalavanzado()" >Soporte Vital Avanzado </button> </a>
+        <a> <button type="button" onclick="primerosauxiliobasico()" >Primeros Auxilios Basico </button> </a>
+        <a> <button type="button" onclick="tomadelaboratorio()" >Toma de Muestras de Laboratorio </button> </a>
+        <a> <button type="button" onclick="administracionmedicamentos()" >Administracion de medicamentos </button> </a>
+    </nav>
+
+    <section id="introduccion";> 
+        <h2> Quienes somos</h2>
+        <p> 
+            La Sociedad Colombiana de Emergencias en Salud S.A.S es una institución que, a través de la educación 
+            técnica y continuada, busca incursionar y consolidarse en el ámbito laboral, social y empresarial. 
+            Nuestro propósito es contribuir a la inclusión y formación integral de personal técnico, tecnólogo, 
+            profesional y no profesional en las áreas de salud, sociales, veterinaria y administrativas. 
+            Nos enfocamos en fomentar el desarrollo personal y social mediante la innovación en las habilidades 
+            educativas prácticas y teóricas, promoviendo la unificación y el fortalecimiento de diversos saberes. 
+            Esto nos permite impulsar la expansión del conocimiento en múltiples disciplinas, garantizando una oferta 
+            académica de calidad adaptada a las necesidades del entorno. 
+        </p>
+    </section>
+
+    <section id="tsoportevitalbasico" style="display:none";> 
+        <h2> Soporte Vital Basico</h2>
+        <p>  El curso taller enfocado tanto a la comunidad como al área asistencial de la salud 
+             en la socialización y aprendizaje de los protocolos y conocimientos para las acciones 
+             encaminadas a preservar la vida en emergencias potencialmente fatales como lo es el paro 
+             cardiorespiratorio, obstrucción de vía aérea, realizando maniobras efectivas estudiadas 
+             y analizadas por las guías de la  Asociación Americana del Corazón, adicional se reconocerán 
+             los eventos cerebrovasculares, hemorragias y las medidas a tomar en estos casos.</p>
+    </section>
+
+    <section id="tsoportevitalavanzado" style="display:none";> 
+        <h2> Soporte Vital Avanzado </h2>
+        <p> El curso taller de soporte vital cardio vascular avanzado está  enfocado al área asistencial 
+            en los cuidados durante el paro cardiaco y pos paro   del paciente intrahospitalario y extra 
+            hospitalario con apoyo avanzado  para su recuperación, con el fin de hacer los procesos 
+            más eficaces al momento de la solicitud  en los  servicios hospitalarios de urgencias, 
+            hospitalización  y consulta. </p>
+    </section>
+
+    <section id="tprimerosauxiliobasico" style="display:none";> 
+        <h2> Primeros Auxilios Basicos</h2>
+        <p> El curso taller enfocado tanto a la comunidad como al área asistencial de la salud en la 
+            socialización y aprendizaje de los protocolos y conocimientos para las acciones encaminadas
+            a preservar la vida y ayudar en la recuperación del paciente enfermo, lesionado o accidentado
+            en el lugar del acontecimiento.</p>
+
+    </section>
+
+    <section id="ttomadelaboratorio" style="display:none";>
+        <h2> Toma de Muestras de Laboratorio </h2>
+        <p> El curso toma de muestras de laboratorio clínico  está  enfocado al área asistencial de enfermería 
+            en los cuidados durante la toma de muestras que puedan ayudar al paciente intrahospitalario en el 
+            proceso diagnóstico para su recuperación, con el fin de hacer los procesos  más eficaces al momento 
+            de la solicitud  en los  servicios hospitalarios de urgencias, hospitalización  y consulta.</p>
+    </section>
+
+    <section id="tadministracionmedicamentos" style="display:none";> 
+        <h2>Administracion de Medicamentos </h2>
+        <p> El curso toma de muestras de laboratorio clínico  está  enfocado al área asistencial de enfermería 
+            en los cuidados durante la toma de muestras que puedan ayudar al paciente intrahospitalario en el 
+            proceso diagnóstico para su recuperación, con el fin de hacer los procesos  más eficaces al momento 
+            de la solicitud  en los  servicios hospitalarios de urgencias, hospitalización  y consulta.</p>
+    </section>
+
+    </div>
+
+    <div id="seccion-contacto" style="display:none;">
+            <form>
+            <h2>Contáctenos</h2>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <button type="submit" onclick="guardarContacto()">Guardar</button>
+        </form>
+    </div>
+
+</body>
+</html>

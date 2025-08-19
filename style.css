@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    padding-left: 20px;
+        }
+
+.navbar {
+    background-color: #72a3f1;
+    overflow: hidden;
+    display:flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 150px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+.sidenav a { 
+    color: aliceblue;
+    padding: 25px;
+    display: block;
+
+}
+
+
+section {
+    margin-left: 220px;
+    width: 80%;
+    padding: 10px;
+    border: 5px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(228, 227, 255);
+    line-height: 1.5;
+}
+
+form {
+    margin-left: 220px;
+    width: 80%;
+    padding: 10px;
+    border: 5px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(228, 227, 255);
+    line-height: 1.5;
+}

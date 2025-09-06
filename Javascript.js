@@ -23,14 +23,11 @@ function mostrarContacto() {
     document.getElementById("seccion-contacto").style.display = "block";
 }
 
-// --- Funciones Simplificadas para los Cursos ---
-// Estas funciones ahora ocultan todo primero, muestran el contenedor principal de cursos
-// y luego solo muestran la sección del curso correspondiente.
 
 function soportevitalbasico() {
-    ocultarTodo(); // Oculta todas las secciones
-    document.getElementById("seccion-cursos-container").style.display = "flex"; // Muestra el contenedor
-    document.getElementById("tsoportevitalbasico").style.display = "block"; // Muestra solo este curso
+    ocultarTodo(); 
+    document.getElementById("seccion-cursos-container").style.display = "flex"; 
+    document.getElementById("tsoportevitalbasico").style.display = "block"; 
 }
 
 function soportevitalavanzado() {
@@ -57,7 +54,7 @@ function administracionmedicamentos() {
     document.getElementById("tadministracionmedicamentos").style.display = "block";
 }
 
-// Función para guardar los datos del formulario (simulada)
+// Función para guardar los datos del formulario 
 function guardarContacto() {
     const nombre = document.getElementById("nombre").value;
     const telefono = document.getElementById("telefono").value;
